@@ -15,7 +15,6 @@ int main()
 
     return 0;
 }
-*/
 
 //assignment of integers
 int main()
@@ -28,6 +27,16 @@ int main()
     width = 7;
 
     std::cout << width; //prints 57
+
+    return 0;
+}
+*/
+
+//initialisation = specifying an intitial value for object
+int main()
+{
+    int width{5}; //define variable and initialise
+    std::cout << width; //prints 5
 
     return 0;
 }
