@@ -35,7 +35,7 @@ int main()
 //initialisation = specifying an intitial value for object
 int main()
 {
-    int width{5}; //define variable and initialise
+    int width = 5; //define variable and initialise
     std::cout << width; //prints 5
 
     return 0;
